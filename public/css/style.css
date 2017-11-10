@@ -1,0 +1,87 @@
+.heure{
+    text-align:right;
+    background-color:#FF5757; 
+    position:absolute;
+     z-index:-1; 
+     top:0; 
+     left:0; 
+     right:0; 
+     bottom:0; 
+     opacity:0.2;
+}
+.panel-body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1em auto;
+    max-width: 80%;
+}
+.accordion,
+.accordion dt,
+.accordion dd,
+.accordion table{
+    margin:0;
+    padding:0;
+}
+.accordion dt{
+    background: deepskyblue;
+    border-bottom:1px solid dodgerblue;
+    border-radius: 7px 7px 0 0;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 0.222em;
+    padding: 0.5em 1em;
+    transition: all 300ms;
+}
+.jsOn .accordion dt{
+    border-radius: 7px;
+    cursor: pointer;
+}
+.jsOn .accordion dt::before{
+   content: '+';
+   margin-right :0.5em;
+}
+.accordion dt.open{
+    background: darkorange;
+    border-bottom-color: chocolate;
+    border-radius: 7px 7px 0 0;
+}
+.accordion dt.open::before{
+   content: '\2013';
+   border-right: 0.7em;
+}
+
+.accordion dd{
+    border:1px solid dodgerblue;
+    border-top:none;
+    border-radius: 0 0 7px 7px;
+    padding: 1em; 
+}
+.jsOn .accordion dd{
+border-color: chocolate;
+}
+th{
+ background: darkorange;  
+}
+td{
+      background:#D4E1EC; 
+}
+
+.panel-heading{
+     background:bisque;
+     text-align: center;
+}
+
+.footer{
+    height:50px;
+    padding: 15px;
+    background: #6120F8;
+    color:#fff;
+}
+.item.active img{
+    height: 400px;
+  
+}
+
+.item img{
+    height: 400px;
+   
+}

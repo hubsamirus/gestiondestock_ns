@@ -1,0 +1,33 @@
+[09-11-2017 01:06:44] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[09-11-2017 01:06:45] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:06:48] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 01:06:48] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment?count=1&start_index=0
+[09-11-2017 01:06:48] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:06:49] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 01:07:16] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[09-11-2017 01:07:17] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:07:17] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 01:07:17] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment/1
+[09-11-2017 01:07:17] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:07:18] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 404
+[09-11-2017 01:07:18] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 404 when accessing https://api.sandbox.paypal.com/v1/payments/payment/1. {"name":"INVALID_RESOURCE_ID","message":"Requested resource ID was not found.","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"219ab2731662d"}
+[09-11-2017 01:08:30] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[09-11-2017 01:08:30] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:08:31] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 01:08:31] PayPal\Core\PayPalHttpConnection : INFO: GET https://api.sandbox.paypal.com/v1/payments/payment?count=1&start_index=0
+[09-11-2017 01:08:31] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 01:08:33] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 03:01:17] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[09-11-2017 03:01:18] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 03:01:18] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[09-11-2017 03:01:18] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[09-11-2017 03:01:18] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[09-11-2017 03:01:19] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[09-11-2017 03:01:19] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions.amount","issue":"Currency amount must be non-negative number, may optionally contain exactly 2 decimal places separated by '.', optional thousands separator ',', limited to 7 digits before the decimal point and currency which is a valid ISO Currency Code"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"2e1990db35c8c"}
+[10-11-2017 06:13:31] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/oauth2/token
+[10-11-2017 06:13:33] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[10-11-2017 06:13:34] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 200
+[10-11-2017 06:13:34] PayPal\Core\PayPalHttpConnection : INFO: POST https://api.sandbox.paypal.com/v1/payments/payment
+[10-11-2017 06:13:34] PayPal\Core\PayPalHttpConnection : INFO: Invalid or no certificate authority found - Retrying using bundled CA certs file
+[10-11-2017 06:13:35] PayPal\Core\PayPalHttpConnection : INFO: Response Status 	: 400
+[10-11-2017 06:13:35] PayPal\Core\PayPalHttpConnection : ERROR: Got Http response code 400 when accessing https://api.sandbox.paypal.com/v1/payments/payment. {"name":"VALIDATION_ERROR","details":[{"field":"transactions.amount","issue":"Currency amount must be non-negative number, may optionally contain exactly 2 decimal places separated by '.', optional thousands separator ',', limited to 7 digits before the decimal point and currency which is a valid ISO Currency Code"}],"message":"Invalid request - see details","information_link":"https://developer.paypal.com/docs/api/payments/#errors","debug_id":"11bf8a56a58b0"}
