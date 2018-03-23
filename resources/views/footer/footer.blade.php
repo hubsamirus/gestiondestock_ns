@@ -1,4 +1,4 @@
-<footer style="   background: #6120F8;" class="navbar-default navbar-fixed-bottom">
+<footer class="navbar-default navbar-fixed-bottom"><hr>
         <div class="container" >
             <div class="row">
               <div class="footer">

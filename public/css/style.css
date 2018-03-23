@@ -66,15 +66,15 @@ td{
 }
 
 .panel-heading{
-     background:bisque;
+     background:white;
      text-align: center;
 }
 
 .footer{
-    height:50px;
-    padding: 15px;
-    background: #6120F8;
-    color:#fff;
+    height:30px;
+    background: #ffffff;
+    color:rgb(17, 16, 16);
+    margin-bottom: 10px;
 }
 .item.active img{
     height: 400px;
@@ -115,4 +115,13 @@ hr {
 
 .logo:hover {
     transform: translateX(-100px); /* On déplace l'objet */
+}
+
+.navbar-default{
+    background-color: white;
+}
+
+.panel{
+    border: none;
+    background-color: white;
 }
