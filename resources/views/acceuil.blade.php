@@ -18,9 +18,8 @@
         <script type="text/javascript" src="js/jquery-3.1.1.js"></script> 
         <script type="text/javascript" src="js/bootstrap.js"></script>     
     </head>
-    <body  style="background-image: url('img/gestion.jpg') ; background-repeat: no-repeat;  background-size: 1370px 770px; background-color: #cccccc;">
-          <div style="background-image: url('img/header.jpg');    background-repeat: repeat-x;  height:100px;"> </div>
-           @include('inc.headerAcceuil') 
+    <body>
+          @include('inc.headerAcceuil') 
            
            @yield('container')   
            @include('footer.footer')

@@ -1,5 +1,5 @@
-<nav class="navbar navbar-default">
-    <div class="container-fluid">      
+<div class="nav">
+    <div class="container container_navbar">      
         <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
             <span class="sr-only">Toggle navigation</span>
@@ -9,7 +9,7 @@
         </button>
 
             <a class="navbar-brand" href="#">
-            {{ config('app.name', 'Gestion de stock') }}
+          <img class="logo" src="img/gstock.jpg" alt="">
         </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
@@ -59,7 +59,7 @@
         @endguest
         </ul>
          
-        </div>
-       
+        </div>       
     </div>
-</nav>
+</div>
+<hr>
