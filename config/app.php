@@ -163,11 +163,11 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+    
 
         /*
          * Package Service Providers...
          */
-         Barryvdh\Debugbar\ServiceProvider::class,
          Collective\Html\HtmlServiceProvider::class,
          Barryvdh\DomPDF\ServiceProvider::class,
          MercurySeries\Flashy\FlashyServiceProvider::class,
@@ -234,15 +234,11 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Debugbar' => Barryvdh\Debugbar\Facade::class,
-
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
-        'Flashy' => MercurySeries\Flashy\Flashy::class,
-        
+        'Flashy' => MercurySeries\Flashy\Flashy::class,        
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
-
         'Paypalpayment' => Anouar\Paypalpayment\Facades\PaypalPayment::class,
        
 
