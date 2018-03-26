@@ -5,10 +5,7 @@
    <section class="wrapper">         
      <div class="row">
         <!-- chart morris start -->
-        <div class="col-md-10 col-md-offset-1">
-          <section class="panel">
-                   
-                        
+  
              <div class="jsOff panel-body">  
 
                   <div class="row">
@@ -82,8 +79,7 @@
                   
               
                 </form>                       
-              </div>
-            </section>
+    
           </div>
         </div>
    </section> 

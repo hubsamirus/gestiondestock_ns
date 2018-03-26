@@ -74,8 +74,8 @@
                 <div class="form-group">
                      <label for="qteCmd"  class="col-md-3 control-label"> je Commande: </label>
                  <div class="col-md-6">
-                      <input class="form-inline quantity" type="number"  min="1" max="{{$articles->quantite}}" id="qteCmd" name="qteCmd" value="1">
-                      <p>{{$articles->nomArticle}}(s)</p>
+                       <p><input class="form-inline quantity" type="number"  min="1" max="{{$articles->quantite}}" id="qteCmd" name="qteCmd" value="1">
+                     {{$articles->nomArticle}}(s)</p>
                    </div>
                </div>
                <br>

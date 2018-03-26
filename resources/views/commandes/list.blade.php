@@ -4,8 +4,12 @@
    <section class="wrapper">         
      <div class="row">
         <!-- chart morris start -->
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-11 col-md-offset-1">
             <section class="panel">
+              <header class="panel-heading">
+                          <h2>Liste des commandes  </h2>
+                         
+                        </header>
               <div class="panel-body">
                 <div class="row">                
                       <section class="panel">
@@ -18,10 +22,7 @@
                                     @endif
                                </div>
                             </div>
-                        <header class="panel-heading">
-                          <h2>Liste des commandes  </h2>
-                         
-                        </header>
+                        
                           <table class="table">
                               <thead>
                               <tr>

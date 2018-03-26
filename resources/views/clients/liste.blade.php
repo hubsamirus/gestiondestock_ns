@@ -4,14 +4,10 @@
    <section class="wrapper">         
      <div class="row">
         <!-- chart morris start -->
-        <div class="col-md-8 col-md-offset-2">
-            <section class="panel">
-            
-              <div class="panel-body">
-                <div class="row">
-                 
-                      <section class="panel">
-
+        <div class="col-md-10 col-md-offset-1">            
+           <div class="panel-body">
+              <div class="row">
+                 <section class="panel">
                          <div class="row">
                                   <div class="col-md-6 col-lg-6 col-md-offset-3">
                                     @if(session('info'))
@@ -65,10 +61,10 @@
                           </table>
                            <div class=" col-md-5 col-md-offset-5">  
                              {{$articles->links()}} 
-                             </div 
+</div>
                   </div>
               </div>  
-            </section>
+      
           </div>
         </div>
    </section> 

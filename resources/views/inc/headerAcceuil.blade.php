@@ -17,9 +17,9 @@
           @if(Auth:: user())
            <li class="active"><a href="/home">Acceuil <span class="sr-only">(current)</span></a></li>
            <li> <a href="{{url('/clients/creerCommande')}}">Creer une commande</a> </li> 
-           <li> <a href="{{url('/clients/listeCommande')}}">Voir ma commande</a> </li>          
+           <li> <a href="{{url('/clients/listeCommande')}}"> ma commande</a> </li>          
            <li><a href="{{url('/factures/liste')}}">Mes Facture</a></li>
-           <li><a href="{{url('/clients/historique')}}">Historique des Commandes</a></li>
+           <li><a href="{{url('/clients/historique')}}">Historique</a></li>
            @else
            <li class="active"><a href="/index">Acceuil <span class="sr-only">(current)</span></a></li>
           @endif
@@ -62,4 +62,3 @@
         </div>       
     </div>
 </div>
-<hr>
