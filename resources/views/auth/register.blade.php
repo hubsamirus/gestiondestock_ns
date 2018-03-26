@@ -1,9 +1,9 @@
  @extends('acceuil')
  @section('container') 
 <div class="container">
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+    <div class="row" style="margin-top:50px;">
+        <div class="col-md-offset-3 col-md-9">
+            <div class="panel panel-default"  style="border:0px solid black; box-shadow: 7px 10px gray;">
                 <div class="panel-heading">S'inscrire</div>
 
                 <div class="panel-body">

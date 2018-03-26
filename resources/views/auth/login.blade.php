@@ -2,12 +2,12 @@
  @section('container') 
 <div class="container">
 
-    <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
+    <div style="margin-top:50px;" class="row">
+        <div class="col-md-offset-3 col-md-9 ">
+            <div class="panel panel-default" style="border:0px solid black; box-shadow: 7px 10px gray;">
                 <div class="panel-heading">Se Connecter</div>
 
-                <div class="panel-body">
+                <div class="panel-body" >
                     <form class="form-horizontal" method="POST" action="{{ route('login.custom') }}">
                         {{ csrf_field() }}
 

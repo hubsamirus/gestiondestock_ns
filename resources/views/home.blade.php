@@ -5,7 +5,7 @@
         <div class="row">
                 <div style="text-align:center;" class="col-md-6 col-lg-10 col-md-offset-1">
                 @if(session('info'))
-                <div class="alert alert-success">
+                <div>
                     <h3>{{session('info')}}  </h3>                               
                 </div> 
                 @endif

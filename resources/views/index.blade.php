@@ -2,7 +2,7 @@
  @section('container') 
             <div class="container">
                <div class="row">
-                 <div  class="col-md-12"> 
+                 <div  class="col-md-offset-2 col-md-11"> 
                     <!--la liste des Articles-->  
                      <div class="panel-body">
                             <div class="row">                 

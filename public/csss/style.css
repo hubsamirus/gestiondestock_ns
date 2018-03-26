@@ -515,9 +515,6 @@ table tr th { color: #000000;}
     height: 100%;
 
     position: fixed;
-
-    background: #526579;
-
 }
 
 
@@ -566,7 +563,7 @@ ul.sidebar-menu {
 
 ul.sidebar-menu li ul.sub li{
 
-    background: #394a59;
+    background: #e9ecf0;
 
     margin-bottom: 0;
 
@@ -608,7 +605,7 @@ ul.sidebar-menu li ul.sub li a {
 
     transition: all 0.3s ease;
 
-    color: #d0d8df;
+    color: #080808;
 
     font-size: 14px;
 
@@ -672,11 +669,9 @@ ul.sidebar-menu li a span{
 
 }
 
-
-
 ul.sidebar-menu li a{
 
-    color: #d0d8df;
+    color: #070a0e;
 
     text-decoration: none;
 
@@ -716,7 +711,7 @@ ul.sidebar-menu li a{
 
 ul.sidebar-menu li.active a, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
 
-    background: #2e3b46;
+    background: #a981f3;
 
     color: #fff;
 
@@ -1125,9 +1120,6 @@ a.logo span {
 
 
 ul.top-menu > li > a {
-
-    color: #fed189;
-
     font-size: 18px;    
 
     padding: 2px 6px;
@@ -1142,7 +1134,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
     background: transparent !important;
 
-    color: #D7D7D7 !important;
+    color: black !important;
 
 }
 
@@ -1572,22 +1564,31 @@ div[data-role="editor-toolbar"] {
 
 .dropdown-menu.extended.logout > li:last-child > a, .dropdown-menu.extended.logout > li:last-child > a:hover {
 
-    color: #fff;
+    color: #000;
 
     border-bottom: none !important;
 
     text-transform: uppercase;
 
-    background-color:#688a7e !important;
+    background-color:#b6b6b6 !important;
 
+    background-color:#fff !important;
+
+    background-color:#fff !important;
+
+    text-align: center;
+
+
+    text-align: center;
+
+
+    text-align: center;
 }
-
 
 
 .dropdown-menu.extended.logout > li:last-child > a:hover > i{
 
-    color: #fff;
-
+    color: #fff; 
 }
 
 .dropdown-menu > li > a{
@@ -2073,12 +2074,9 @@ div[data-role="editor-toolbar"] {
 }
 
 .dark-bg {
-
-  color : #fff;
-
   background : #4e7698;
-
-  background-color : #4e7698;
+  background-color :white;
+  box-shadow: 0 12px 22px -12px rgba(0, 0, 0, 0.5);    
 
 }
 
@@ -2390,7 +2388,7 @@ div[data-role="editor-toolbar"] {
 
 }
 
-}
+
 
 .panel.panel-default.panel-heading {
 
@@ -3311,17 +3309,6 @@ div[data-role="editor-toolbar"] {
 	color:#777;
 
 }
-
-/* Widget white extras */
-
-
-
-.widget .nav-tabs > li a {
-
-
-
-}
-
 
 
 .widget .nav-tabs {
@@ -4660,15 +4647,6 @@ ul.ft-link li a i {
 }
 
 
-
-.post-btn {
-
-
-
-}
-
-
-
 .post-btn a {
 
     float: left;
@@ -4891,11 +4869,6 @@ ul.ft-link li a i {
 
 }
 
-.profile-widget{
-
-    /*padding-left: 20px 15px 30px 15px;*/
-
-}
 
 .profile-widget .twt-category{
 
@@ -4989,11 +4962,6 @@ ul.ft-link li a i {
 
 }
 
-.profile-foot .active{
-
-
-
-}
 
 .profile-foot a{
 
@@ -5515,15 +5483,6 @@ ul.ft-link li a i {
     font-weight: 300;
 
 }
-
-
-
-.weather-category ul li a {
-
-
-
-}
-
 
 
 .weather-category ul li:last-child,.weather-days ul li:last-child  {
@@ -9424,21 +9383,7 @@ table.sliders tr td {
 
 }
 
-
-
-.tasi-tab .media-body p {
-
-    /*color: #b8bac6;*/
-
-}
-
-
-
-
-
 /*Timeline chat*/
-
-
 
 .chat-form {
 
@@ -9532,16 +9477,6 @@ table.sliders tr td {
 
 }
 
-
-
-
-
-.profile-activity .act-in  .arrow {
-
-    /*border-right: 8px solid #F4F4F4 !important;*/
-
-}
-
 .profile-activity .act-in .arrow {
 
     border-bottom: 8px solid transparent;
@@ -9559,14 +9494,6 @@ table.sliders tr td {
     top: 13px;
 
     width: 0;
-
-}
-
-
-
-.profile-activity .act-out  .arrow {
-
-    /*border-right: 8px solid #34aadc !important;*/
 
 }
 
@@ -9647,12 +9574,6 @@ table.sliders tr td {
     height: 44px;
 
     width: 44px;
-
-}
-
-.activity-body {
-
-    /*margin-left: 80px;*/
 
 }
 
@@ -9870,10 +9791,17 @@ span.customSelect.changed {
 
 }
 
-.foot{
-    height: 25px;
+.foot {
+    height: 45px;
     padding: 5px;
-    background: #6120F8;
-    color:#fff;
+    color:#000000;
+    margin-top: 10px;
 }
+
+footer {
+    border-top: 12px solid black;
+      box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);    
+}
+
+
 
